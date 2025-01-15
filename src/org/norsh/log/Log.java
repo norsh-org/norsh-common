@@ -119,11 +119,11 @@ public class Log {
 
 	private synchronized String write(String level, String message, Object obj) {
 		try {
-			String json = (obj instanceof String) ? " -> ".concat((String) obj) : (obj == null ? "" : " -> ".concat(gson.toJson(obj)));
+			String json = (obj instanceof String string) ? " -> ".concat(string) : (obj == null ? "" : " -> ".concat(gson.toJson(obj)));
 			String timestamp = dateFormatter.format(ZonedDateTime.ofInstant(Instant.now(), ZoneId.systemDefault()));
 			long seq = sequence.incrementAndGet();
 
-			String logEntry = String.format("%s  %s %5d --- [%s] %s : %s %s", timestamp, level.toUpperCase(), ProcessHandle.current().pid(), Thread.currentThread().getName(), getCurrentClassAndLine(), message == null ? "-" : message, json);
+			String logEntry = String.format("%s %d %s [%s %s] %s %s", timestamp, seq, level.toUpperCase(), Thread.currentThread().getName(), getCurrentClassAndLine(), message == null ? "-" : message, json);
 
 			if (config.getSysout()) {
 				System.out.println(logEntry);
