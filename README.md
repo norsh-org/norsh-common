@@ -91,13 +91,11 @@ The Norsh Common module requires a configuration JSON file to define runtime par
   - **`maxLength`**: Maximum size (in bytes) of a log file before rotation.
   - **`maxRows`**: Maximum number of log entries in a single log file.
   - **`level`**: Minimum log level to record:
-    - `0`: SYS
-    - `1`: EXCEPTION
-    - `2`: ERROR
-    - `3`: WARNING
-    - `4`: INFO
-    - `5`: TRACE
-    - `6`: DEBUG
+    - `0`: SYSTEM
+    - `1`: ERROR
+    - `2`: WARNING
+    - `3`: INFO
+    - `4`: DEBUG
   - **`rotationIntervalMinutes`**: Time interval (in minutes) for rotating log files.
 
 ---
