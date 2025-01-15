@@ -71,15 +71,13 @@ public class LogConfig {
 
 	/**
 	 * Defines the logging level for filtering log messages.
-	 * <h2>Logging Levels:</h2>
+	 * Log levels:
 	 * <ul>
-	 * <li>{@code 0}: SYS</li>
-	 * <li>{@code 1}: EXCEPTION</li>
-	 * <li>{@code 2}: ERROR</li>
-	 * <li>{@code 3}: WARNING</li>
-	 * <li>{@code 4}: INFO</li>
-	 * <li>{@code 5}: TRACE</li>
-	 * <li>{@code 6}: DEBUG</li>
+	 * <li>{@code 0}: SYSTEM - System messages, such as initializations.</li>
+	 * <li>{@code 1}: ERROR - Critical errors and exceptions.</li>
+	 * <li>{@code 2}: WARNING - Warnings that do not interrupt the main flow.</li>
+	 * <li>{@code 3}: INFO - General operational information.</li>
+	 * <li>{@code 4}: DEBUG - Technical details for developers.</li>
 	 * </ul>
 	 */
 	private Integer level;
