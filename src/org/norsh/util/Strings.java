@@ -20,9 +20,9 @@ import java.util.stream.Collectors;
  *   <li>Handles {@code null} values gracefully by treating them as empty strings.</li>
  * </ul>
  *
- * @license NCL-139
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
- * @since 01/2025
  * @version 1.0
  * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  */

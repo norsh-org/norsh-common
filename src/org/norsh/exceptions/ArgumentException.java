@@ -8,10 +8,10 @@ package org.norsh.exceptions;
  * integrate seamlessly with the Norsh platform's centralized error handling.
  * </p>
  * 
- * @license NCL-139
- * @since 2024
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
+ * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  * @see NorshException
  */
 public class ArgumentException extends NorshException {

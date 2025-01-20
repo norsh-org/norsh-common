@@ -8,11 +8,10 @@ package org.norsh.exceptions;
  * Norsh platform's centralized error handling.
  * </p>
  * 
- * @license NCL-139
- * @since 2024
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
- * @see NorshException
+ * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  */
 public class ValidationException extends NorshException {
     private static final long serialVersionUID = 1L;

@@ -14,10 +14,10 @@ package org.norsh.exceptions;
  * context about the error and ensuring consistent error handling throughout the platform.
  * </p>
  * 
- * @license NCL-139
- * @since 2024
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
+ * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  * @see NorshException
  */
 public class InternalException extends NorshException {

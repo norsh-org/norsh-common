@@ -22,11 +22,11 @@ import org.norsh.exceptions.InternalException;
  *   <li>Convenient UUID generation.</li>
  * </ul>
  *
- * @license NCL-139
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
- * @since 12/2024
- * @version 1.0
- * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
+ * @ntp NTP-2
+ * @see <a href="https://docs.norsh.org/ntp/ntp-2">NTP-2: Cryptography and Hash Specification in the Norsh Ecosystem</a>
  */
 public class Hasher {
 	/**

@@ -21,11 +21,11 @@ import org.norsh.util.Strings;
  * <li>Concatenation and hashing of multiple fields for consistent signature validation.</li>
  * </ul>
  *
- * @license NCL-139
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
- * @since 01/2025
- * @version 1.0
- * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
+ * @ntp NTP-2
+ * @see <a href="https://docs.norsh.org/ntp/ntp-2">NTP-2: Cryptography and Hash Specification in the Norsh Ecosystem</a>
  */
 public class Signature {
 	/**

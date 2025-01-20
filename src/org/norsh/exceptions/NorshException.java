@@ -16,9 +16,8 @@ import java.util.List;
  *   <li>Allows chaining of exceptions via a cause.</li>
  * </ul>
  *
- * @license NCL-139
- * @since 12/2024
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
  * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  */

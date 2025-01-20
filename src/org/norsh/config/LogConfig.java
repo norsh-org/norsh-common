@@ -1,4 +1,4 @@
-package org.norsh.log;
+package org.norsh.config;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,9 +10,8 @@ import lombok.Setter;
  * levels. It provides a centralized way to manage log behavior throughout the application.
  * </p>
  *
- * @license NCL-139
- * @since 01/2025
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.0
  * @author Danthur Lice
  * @see <a href="https://docs.norsh.org">Norsh Documentation</a>
  */
